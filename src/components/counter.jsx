@@ -27,7 +27,7 @@ function Counter() {
                 <h1>{name}</h1>
             </div>
             <div>
-                {show && <p>this is hidden</p>}
+                {show && <p>this is hiddennnmm</p>}
             </div>
             <div>
                 <div>
