@@ -11,7 +11,7 @@ function Counter() {
     const [users, setUsers] = useState([
         { id: 1, firstName: "egzon", role: "instructor" },
         { id: 2, firstName: "leon", role: "instructors" },
-        { id: 3, firstName: "leotrim", role: "instructorss" },
+        { id: 3, firstName: "leotrim", role: "instructorsss" },
     ])
 
     return (
@@ -32,7 +32,7 @@ function Counter() {
             <div>
                 <div>
                     {users.map(user => (
-                        <p key={user.id}>{user.firstName} {user.role }</p>
+                        <p key={user.id}>{user.firstName} {user.role}</p>
                     ))}
                 </div>
 
